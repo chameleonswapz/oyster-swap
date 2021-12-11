@@ -1,7 +1,7 @@
 {
   "mainnet-beta": [
     {
-      "tokenSymbol": "SOL",
+      "tokenSymbol": "LEON",
       "mintAddress": "So11111111111111111111111111111111111111112",
       "tokenName": "Solana",
       "icon": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png"
