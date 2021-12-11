@@ -8,7 +8,6 @@ export const WALLET_PROVIDERS = [
   { name: "sollet.io", url: "https://www.sollet.io" },
   { name: "solflare.com", url: "https://solflare.com/access-wallet" },
   { name: "mathwallet.org", url: "https://www.mathwallet.org" },
-  { name: "phantom", url: "https://phantom.app/", "_blank" }
 ];
 
 const WalletContext = React.createContext<any>(null);
@@ -18,7 +17,6 @@ export function WalletProvider({ children = null as any }) {
   const [providerUrl, setProviderUrl] = useLocalStorageState(
     "walletProvider",
     "https://www.sollet.io"
-
   );
   const wallet = useMemo(() => new Wallet(providerUrl, endpoint), [
     providerUrl,
