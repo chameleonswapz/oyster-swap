@@ -45,6 +45,24 @@ export const ExchangeView = (props: {}) => {
             CLAIM
           </a>
         </Button>
+        <Button type="text" size="large" style={{ color: "#eb2dc1" }}>
+          <a
+            href={"https://twitter.com/chemeleonworlds"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Twitter
+          </a>
+        </Button>
+        <Button type="text" size="large" style={{ color: "#eb2dc1" }}>
+          <a
+            href={"https://t.me/chemeleonworlds"}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Telegram
+          </a>
+        </Button>
         <AccountInfo />
         {connected && (
           <Popover
