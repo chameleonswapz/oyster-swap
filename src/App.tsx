@@ -7,9 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="Banner">
-        <div className="Banner-description">
-          Chemeleonswap are live now swap with any token.
-        </div>
+        
       </div>
       <Routes />
       <div className="social-buttons">

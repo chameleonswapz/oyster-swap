@@ -36,13 +36,13 @@ export const ExchangeView = (props: {}) => {
         <div className="App-logo" />
       </div>
       <div className="App-Bar-right">
-        <Button type="text" size="large" style={{ color: "#2abdd2" }}>
+        <Button type="text" size="large" style={{ color: "#eb2dc1" }}>
           <a
             href={"https://dex.projectserum.com"}
             target="_blank"
             rel="noopener noreferrer"
           >
-            Trade
+            CLAIM
           </a>
         </Button>
         <AccountInfo />
@@ -61,7 +61,7 @@ export const ExchangeView = (props: {}) => {
               type="text"
               size="large"
               onClick={connected ? wallet.disconnect : wallet.connect}
-              style={{ color: "#2abdd2" }}
+              style={{ color: "#eb2dc1" }}
             >
               Connect
             </Button>
