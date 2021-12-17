@@ -1,10 +1,16 @@
 {
   "mainnet-beta": [
     {
-      "tokenSymbol": "LEON",
+      "tokenSymbol": "SOL",
       "mintAddress": "So11111111111111111111111111111111111111112",
       "tokenName": "Solana",
       "icon": "https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/solana/info/logo.png"
+    },
+    {
+      "tokenSymbol": "LEON",
+      "mintAddress": "6JEK47yGkULH4ezouZ8X4X4qEiyd3QZn7emaQhAXQuam",
+      "tokenName": "chemeleon",
+      "icon": "https://i.ibb.co/DbPKRVk/Whats-App-Image-2021-12-16-at-10-19-27-PM.jpg"
     },
     {
       "tokenSymbol": "BTC",
@@ -66,43 +72,12 @@
       "tokenName": "Wrapped SXP",
       "icon": "https://github.com/trustwallet/assets/raw/b0ab88654fe64848da80d982945e4db06e197d4f/blockchains/ethereum/assets/0x8CE9137d39326AD0cD6491fb5CC0CbA0e089b6A9/logo.png"
     },
-    {
-      "tokenSymbol": "HGET",
-      "mintAddress": "BtZQfWqDGbk9Wf2rXEiWyQBdBY1etnUUn6zEphvVS7yN",
-      "tokenName": "Wrapped HGET"
-    },
-    {
-      "tokenSymbol": "CREAM",
-      "mintAddress": "5Fu5UUgbjpUvdBveb3a1JTNirL8rXtiYeSMWvKjtUNQv",
-      "tokenName": "Wrapped CREAM",
-      "icon": "https://raw.githubusercontent.com/trustwallet/assets/4c82c2a409f18a4dd96a504f967a55a8fe47026d/blockchains/smartchain/assets/0xd4CB328A82bDf5f03eB737f37Fa6B370aef3e888/logo.png"
-    },
-    {
-      "tokenSymbol": "UBXT",
-      "mintAddress": "873KLxCbz7s9Kc4ZzgYRtNmhfkQrhfyWGZJBmyCbC3ei",
-      "tokenName": "Wrapped UBXT"
-    },
-    {
-      "tokenSymbol": "HNT",
-      "mintAddress": "HqB7uswoVg4suaQiDP3wjxob1G5WdZ144zhdStwMCq7e",
-      "tokenName": "Wrapped HNT"
-    },
-    {
-      "tokenSymbol": "FRONT",
-      "mintAddress": "9S4t2NEAiJVMvPdRYKVrfJpBafPBLtvbvyS3DecojQHw",
-      "tokenName": "Wrapped FRONT",
-      "icon": "https://raw.githubusercontent.com/trustwallet/assets/6e375e4e5fb0ffe09ed001bae1ef8ca1d6c86034/blockchains/ethereum/assets/0xf8C3527CC04340b208C854E985240c02F7B7793f/logo.png"
-    },
+  
     {
       "tokenSymbol": "AKRO",
       "mintAddress": "6WNVCuxCGJzNjmMZoKyhZJwvJ5tYpsLyAtagzYASqBoF",
       "tokenName": "Wrapped AKRO",
       "icon": "https://raw.githubusercontent.com/trustwallet/assets/878dcab0fab90e6593bcb9b7d941be4915f287dc/blockchains/ethereum/assets/0xb2734a4Cec32C81FDE26B0024Ad3ceB8C9b34037/logo.png"
-    },
-    {
-      "tokenSymbol": "HXRO",
-      "mintAddress": "DJafV9qemGp7mLMEn5wrfqaFwxsbLgUsGVS16zKRk9kc",
-      "tokenName": "Wrapped HXRO"
     },
     {
       "tokenSymbol": "UNI",
