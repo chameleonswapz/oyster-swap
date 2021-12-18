@@ -38,31 +38,16 @@ export const ExchangeView = (props: {}) => {
       <div className="App-Bar-right">
         <Button type="text" size="large" style={{ color: "#00FFFF" }}>
           <a
-            href={"https://chemeleon.world"}
+            href={"https://dex.projectserum.com"}
             target="_blank"
             rel="noopener noreferrer"
+            
           >
-            Claim
+            CLAIM
           </a>
         </Button>
-        <Button type="text" size="large" style={{ color: "#00FFFF" }}>
-          <a
-            href={"https://twitter.com/chemeleonworlds"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Twitter
-          </a>
-        </Button>
-        <Button type="text" size="large" style={{ color: "#00FFFF" }}>
-          <a
-            href={"https://t.me/chemeleonworlds"}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Telegram
-          </a>
-        </Button>
+        
+       
         <AccountInfo />
         {connected && (
           <Popover

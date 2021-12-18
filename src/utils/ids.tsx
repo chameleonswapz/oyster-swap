@@ -14,7 +14,7 @@ export const SWAP_HOST_FEE_ADDRESS = process.env.REACT_APP_SWAP_HOST_FEE_ADDRESS
   ? new PublicKey(`${process.env.REACT_APP_SWAP_HOST_FEE_ADDRESS}`)
   : undefined;
 export const SWAP_PROGRAM_OWNER_FEE_ADDRESS = new PublicKey(
-  "HfoTxFR1Tm6kGmWgYWD6J7YHVy1UwqSULUGVLXkJqaKN"
+  "527U75fwKNGKgRYj1TaRsUuhyedRarr41KsAoa42KZrj"
 );
 
 console.debug(`Host address: ${SWAP_HOST_FEE_ADDRESS?.toBase58()}`);
