@@ -38,15 +38,15 @@ export const ExchangeView = (props: {}) => {
       <div className="App-Bar-right">
         <Button type="text" size="large" style={{ color: "#00FFFF" }}>
           <a
-            href={"https://dex.projectserum.com"}
+            href={"https://chemeleon.world"}
             target="_blank"
             rel="noopener noreferrer"
             
           >
             CLAIM
           </a>
+          
         </Button>
-        
        
         <AccountInfo />
         {connected && (
